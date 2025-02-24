@@ -1,0 +1,258 @@
+2025-01-15T22:49:46.080+02:00  INFO 27468 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : Starting Tpplab3Application using Java 23.0.1 with PID 27468 (D:\TPPRGR\target\classes started by Admin in D:\TPPRGR)
+2025-01-15T22:49:46.084+02:00 DEBUG 27468 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-15T22:49:46.090+02:00  INFO 27468 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : No active profile set, falling back to 1 default profile: "default"
+2025-01-15T22:49:46.093+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.boot.SpringApplication               : Loading source class com.tpp.lab3.Tpplab3Application
+2025-01-15T22:49:46.235+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/D:/TPPRGR/target/classes/]
+2025-01-15T22:49:46.237+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
+2025-01-15T22:49:46.238+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
+2025-01-15T22:49:46.240+02:00  INFO 27468 --- [rgr] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-15T22:49:46.241+02:00  INFO 27468 --- [rgr] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-15T22:49:46.244+02:00 DEBUG 27468 --- [rgr] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6406da76
+2025-01-15T22:49:46.304+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-01-15T22:49:46.340+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2025-01-15T22:49:46.429+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\config\SecurityConfigMain.class]
+2025-01-15T22:49:46.457+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\ComputerController.class]
+2025-01-15T22:49:46.459+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\CountryController.class]
+2025-01-15T22:49:46.462+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\FactoryController.class]
+2025-01-15T22:49:46.466+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\MainController.class]
+2025-01-15T22:49:46.468+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\QueryController.class]
+2025-01-15T22:49:46.471+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\SecurityConfigMain.class]
+2025-01-15T22:49:46.475+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\UserController.class]
+2025-01-15T22:49:46.488+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\ComputerRepository.class]
+2025-01-15T22:49:46.491+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\CountryRepository.class]
+2025-01-15T22:49:46.495+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\FactoryRepository.class]
+2025-01-15T22:49:46.497+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\UserRepository.class]
+2025-01-15T22:49:46.505+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\ComputerService.class]
+2025-01-15T22:49:46.507+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\CountryService.class]
+2025-01-15T22:49:46.513+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\FactoryService.class]
+2025-01-15T22:49:46.516+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\QueryService.class]
+2025-01-15T22:49:46.528+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\UserService.class]
+2025-01-15T22:49:46.547+02:00  WARN 27468 --- [rgr] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tpp.lab3.Tpplab3Application]
+2025-01-15T22:49:46.565+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[#1,main,5,main]
+2025-01-15T22:49:46.567+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
+2025-01-15T22:49:46.570+02:00 DEBUG 27468 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.tpp.lab3.Tpplab3Application with URLs [file:/D:/TPPRGR/target/classes/]
+2025-01-15T22:49:47.059+02:00 ERROR 27468 --- [rgr] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tpp.lab3.Tpplab3Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.tpp.lab3.Tpplab3Application.main(Tpplab3Application.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'securityConfigMain' for bean class [com.tpp.lab3.controllers.SecurityConfigMain] conflicts with existing, non-compatible bean definition of same name and class [com.tpp.lab3.config.SecurityConfigMain]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 16 common frames omitted
+
+2025-01-15T22:51:35.030+02:00  INFO 18032 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : Starting Tpplab3Application using Java 17.0.13 with PID 18032 (D:\TPPRGR\target\classes started by Admin in D:\TPPRGR)
+2025-01-15T22:51:35.035+02:00 DEBUG 18032 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-15T22:51:35.046+02:00  INFO 18032 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : No active profile set, falling back to 1 default profile: "default"
+2025-01-15T22:51:35.049+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.boot.SpringApplication               : Loading source class com.tpp.lab3.Tpplab3Application
+2025-01-15T22:51:35.193+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/D:/TPPRGR/target/classes/]
+2025-01-15T22:51:35.196+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
+2025-01-15T22:51:35.200+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
+2025-01-15T22:51:35.217+02:00  INFO 18032 --- [rgr] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-15T22:51:35.232+02:00  INFO 18032 --- [rgr] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-15T22:51:35.247+02:00 DEBUG 18032 --- [rgr] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65d69886
+2025-01-15T22:51:35.314+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-01-15T22:51:35.392+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2025-01-15T22:51:35.712+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\config\SecurityConfigMain.class]
+2025-01-15T22:51:35.745+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\ComputerController.class]
+2025-01-15T22:51:35.763+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\CountryController.class]
+2025-01-15T22:51:35.780+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\FactoryController.class]
+2025-01-15T22:51:35.784+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\MainController.class]
+2025-01-15T22:51:35.785+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\QueryController.class]
+2025-01-15T22:51:35.793+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\SecurityConfigMain.class]
+2025-01-15T22:51:35.797+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\UserController.class]
+2025-01-15T22:51:35.865+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\ComputerRepository.class]
+2025-01-15T22:51:35.875+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\CountryRepository.class]
+2025-01-15T22:51:35.881+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\FactoryRepository.class]
+2025-01-15T22:51:35.885+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\UserRepository.class]
+2025-01-15T22:51:35.895+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\ComputerService.class]
+2025-01-15T22:51:35.911+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\CountryService.class]
+2025-01-15T22:51:35.928+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\FactoryService.class]
+2025-01-15T22:51:35.929+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\QueryService.class]
+2025-01-15T22:51:35.933+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\UserService.class]
+2025-01-15T22:51:35.964+02:00  WARN 18032 --- [rgr] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tpp.lab3.Tpplab3Application]
+2025-01-15T22:51:36.043+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
+2025-01-15T22:51:36.045+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
+2025-01-15T22:51:36.061+02:00 DEBUG 18032 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.tpp.lab3.Tpplab3Application with URLs [file:/D:/TPPRGR/target/classes/]
+2025-01-15T22:51:36.371+02:00 ERROR 18032 --- [rgr] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tpp.lab3.Tpplab3Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.tpp.lab3.Tpplab3Application.main(Tpplab3Application.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'securityConfigMain' for bean class [com.tpp.lab3.controllers.SecurityConfigMain] conflicts with existing, non-compatible bean definition of same name and class [com.tpp.lab3.config.SecurityConfigMain]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 18 common frames omitted
+
+2025-01-15T22:53:35.431+02:00  INFO 10208 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : Starting Tpplab3Application using Java 17.0.13 with PID 10208 (D:\TPPRGR\target\classes started by Admin in D:\TPPRGR)
+2025-01-15T22:53:35.437+02:00 DEBUG 10208 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-15T22:53:35.439+02:00  INFO 10208 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : No active profile set, falling back to 1 default profile: "default"
+2025-01-15T22:53:35.443+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.boot.SpringApplication               : Loading source class com.tpp.lab3.Tpplab3Application
+2025-01-15T22:53:35.625+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/D:/TPPRGR/target/classes/]
+2025-01-15T22:53:35.629+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
+2025-01-15T22:53:35.631+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
+2025-01-15T22:53:35.649+02:00  INFO 10208 --- [rgr] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-15T22:53:35.654+02:00  INFO 10208 --- [rgr] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-15T22:53:35.687+02:00 DEBUG 10208 --- [rgr] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@778c3add
+2025-01-15T22:53:35.799+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-01-15T22:53:35.835+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2025-01-15T22:53:36.008+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\config\SecurityConfigMain.class]
+2025-01-15T22:53:36.037+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\ComputerController.class]
+2025-01-15T22:53:36.044+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\CountryController.class]
+2025-01-15T22:53:36.047+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\FactoryController.class]
+2025-01-15T22:53:36.050+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\MainController.class]
+2025-01-15T22:53:36.052+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\QueryController.class]
+2025-01-15T22:53:36.055+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\SecurityConfigMain.class]
+2025-01-15T22:53:36.063+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\UserController.class]
+2025-01-15T22:53:36.078+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\ComputerRepository.class]
+2025-01-15T22:53:36.114+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\CountryRepository.class]
+2025-01-15T22:53:36.118+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\FactoryRepository.class]
+2025-01-15T22:53:36.120+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\UserRepository.class]
+2025-01-15T22:53:36.138+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\ComputerService.class]
+2025-01-15T22:53:36.148+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\CountryService.class]
+2025-01-15T22:53:36.151+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\FactoryService.class]
+2025-01-15T22:53:36.156+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\QueryService.class]
+2025-01-15T22:53:36.167+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\UserService.class]
+2025-01-15T22:53:36.183+02:00  WARN 10208 --- [rgr] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tpp.lab3.Tpplab3Application]
+2025-01-15T22:53:36.231+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
+2025-01-15T22:53:36.232+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
+2025-01-15T22:53:36.233+02:00 DEBUG 10208 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.tpp.lab3.Tpplab3Application with URLs [file:/D:/TPPRGR/target/classes/]
+2025-01-15T22:53:36.568+02:00 ERROR 10208 --- [rgr] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tpp.lab3.Tpplab3Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.tpp.lab3.Tpplab3Application.main(Tpplab3Application.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'securityConfigMain' for bean class [com.tpp.lab3.controllers.SecurityConfigMain] conflicts with existing, non-compatible bean definition of same name and class [com.tpp.lab3.config.SecurityConfigMain]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 18 common frames omitted
+
+2025-01-17T13:22:34.112+02:00  INFO 16320 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : Starting Tpplab3Application using Java 17.0.13 with PID 16320 (D:\TPPRGR\target\classes started by Admin in D:\TPPRGR)
+2025-01-17T13:22:34.136+02:00 DEBUG 16320 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-17T13:22:34.145+02:00  INFO 16320 --- [rgr] [restartedMain] com.tpp.lab3.Tpplab3Application          : No active profile set, falling back to 1 default profile: "default"
+2025-01-17T13:22:34.150+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.boot.SpringApplication               : Loading source class com.tpp.lab3.Tpplab3Application
+2025-01-17T13:22:34.302+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/D:/TPPRGR/target/classes/]
+2025-01-17T13:22:34.305+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
+2025-01-17T13:22:34.307+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
+2025-01-17T13:22:34.312+02:00  INFO 16320 --- [rgr] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-17T13:22:34.318+02:00  INFO 16320 --- [rgr] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-17T13:22:34.392+02:00 DEBUG 16320 --- [rgr] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cc6258a
+2025-01-17T13:22:34.454+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-01-17T13:22:34.508+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2025-01-17T13:22:34.701+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\config\SecurityConfigMain.class]
+2025-01-17T13:22:34.730+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\ComputerController.class]
+2025-01-17T13:22:34.735+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\CountryController.class]
+2025-01-17T13:22:34.737+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\FactoryController.class]
+2025-01-17T13:22:34.741+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\MainController.class]
+2025-01-17T13:22:34.743+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\QueryController.class]
+2025-01-17T13:22:34.747+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\SecurityConfigMain.class]
+2025-01-17T13:22:34.756+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\controllers\UserController.class]
+2025-01-17T13:22:34.787+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\ComputerRepository.class]
+2025-01-17T13:22:34.791+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\CountryRepository.class]
+2025-01-17T13:22:34.793+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\FactoryRepository.class]
+2025-01-17T13:22:34.810+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [D:\TPPRGR\target\classes\com\tpp\lab3\repository\UserRepository.class]
+2025-01-17T13:22:34.817+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\ComputerService.class]
+2025-01-17T13:22:34.827+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\CountryService.class]
+2025-01-17T13:22:34.850+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\FactoryService.class]
+2025-01-17T13:22:34.853+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\QueryService.class]
+2025-01-17T13:22:34.860+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [D:\TPPRGR\target\classes\com\tpp\lab3\service\UserService.class]
+2025-01-17T13:22:34.886+02:00  WARN 16320 --- [rgr] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tpp.lab3.Tpplab3Application]
+2025-01-17T13:22:34.929+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
+2025-01-17T13:22:34.934+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
+2025-01-17T13:22:34.940+02:00 DEBUG 16320 --- [rgr] [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.tpp.lab3.Tpplab3Application with URLs [file:/D:/TPPRGR/target/classes/]
+2025-01-17T13:22:35.340+02:00 ERROR 16320 --- [rgr] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tpp.lab3.Tpplab3Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.tpp.lab3.Tpplab3Application.main(Tpplab3Application.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'securityConfigMain' for bean class [com.tpp.lab3.controllers.SecurityConfigMain] conflicts with existing, non-compatible bean definition of same name and class [com.tpp.lab3.config.SecurityConfigMain]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 18 common frames omitted
+

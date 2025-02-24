@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Error - Unauthorized</title>
+    <link rel="stylesheet" href="/css/style.css"> <!-- Підключення до ваших стилів -->
+</head>
+<body>
+<div class="container">
+    <div class="text-center mb-4">
+        <h1>Error</h1>
+    </div>
+
+    <h2>Access Denied!</h2>
+    <p>Please log in to gain access or return to the homepage.</p>
+
+    <div>
+        <a th:href="@{/login}" class="btn btn-primary">Login</a>
+        <a th:href="@{/}" class="btn btn-secondary">Home Page</a>
+    </div>
+</div>
+</body>
+</html>
+
